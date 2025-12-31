@@ -1,0 +1,1 @@
+print('Shah Rukh Khan once said, "Success is not a good teacher, failure makes you humble."')

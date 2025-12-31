@@ -1,0 +1,23 @@
+languages = ["Python", "Java", "C++", "Rust", "C#", "HTML", "Assembly"]
+print(languages)
+print(languages[0])
+languages[1] = "JavaScript"
+print(languages[1])
+languages.append("CSS")
+print(languages[7])
+languages.insert(4, "BrainF*ck")
+print(languages[4])
+languages.remove("BrainF*ck")
+print(languages)
+del languages[2]
+print(languages)
+print(languages.pop(3))
+print(sorted(languages))
+print(languages)
+languages.sort()
+print(languages)
+languages.sort(reverse=True)
+print(languages)
+languages.reverse()
+print(languages)
+print(len(languages))
