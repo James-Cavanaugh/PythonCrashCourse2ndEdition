@@ -10,12 +10,21 @@ def is_palindrome(text):
     else:
         return False
 
-def capitalize_sentence(text):
-    return text.title()
+def reverse_capitlization(text):
+    final_text = ""
+    for letter in text:
+        if letter.isupper():
+            final_text += letter.lower()
+        else:
+            final_text += letter.upper()
+    return final_text
+
+
+
 
 # TEST CASES
 print(count_words("Hello, I like programming!"))
 print(reverse_text("Hello, I like programming!"))
 print(is_palindrome("Hello, I like programming!"))
 print(is_palindrome("racecar"))
-print(capitalize_sentence("Hello, I like programming!"))
+print(reverse_capitlization("Hello, I like programming!"))
